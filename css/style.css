@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/**CSS Reset**/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.iphone {
+	width: 640px;
+	height: 326px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 100;
+	top: 15px;
+}
+
+.browser {
+	position: relative;
+	width: 640px;
+	height: 326px;
+	overflow: hidden;
+}
+
+
+
+
+/*选择地区*/
+
+.express-area {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	/*margin-top: .25rem;*/
+
+	/*background-color: #fff;*/
+	background: url(../img/index/sel.jpg);
+	width: 376px;
+	margin-left: 130px;
+	/*text-align: center;*/
+}
+
+
+
+.express-area dl {
+	position: relative;
+	line-height: 1.2rem;
+	color: #4d525d;
+	width: 357px;
+	
+	
+}
+
+.express-area dl dt {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: .7rem;
+	line-height: 1.2rem;
+	
+}
+
+.express-area dl dd {
+
+	text-align: justify;
+	font-size: 24px;
+	line-height: 57px;
+	width: 377px;
+	height: 57px;
+	padding-left: 15px;
+	color: #9f7f34;
+}
+
+
+
+
+/*选择地区弹层*/
+
+.express-area-box {
+	position: absolute;
+	bottom: -100%;
+
+	z-index: 15;
+	width: 640px;
+	height: 266px;
+	background-color: #fff;
+	color: #4d525d;
+}
+
+.express-area-box header {
+	position: relative;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.express-area-box header h3 {
+
+	text-align: center;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.express-area-box header .back,
+.express-area-box header .close {
+	position: absolute;
+	top: 0;
+	width: 48px;
+	height: 48px;
+	/*width: 1.675rem;
+	height: 2.25rem;*/
+}
+
+.express-area-box header .back {
+	display: none;
+	left: 0;
+	background: url(../img/back.png) no-repeat center;
+	background-size: 20px 20px;
+}
+
+.express-area-box header .close {
+	right: 0;
+	background: url(../img/close-area.png) no-repeat center;
+	background-size: 20px 20px;
+}
+
+.express-area-box article {
+	height: 250px;
+	overflow-y: scroll;
+}
+
+.area-list li {
+	padding: 5px;
+	border-bottom: 1px solid #e2e2e2;
+
+	font-size: 20px;
+	line-height:30px;
+	text-align: center;
+}
+
+
+
+
+/*遮罩层*/
+
+.mask {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 12;
+	width: 640px;
+	height: 300px;
+	background-color: rgba(0, 0, 0, .5);
+}
+

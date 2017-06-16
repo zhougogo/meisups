@@ -1,0 +1,132 @@
+/*通用样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+a, a:link { text-decoration: none;
+		 	-webkit-touch-callout:none;
+		  	-webkit-tap-highlight-color:rgba(255,255,255,0);
+		  	color:inherit; 
+ }
+.page1{
+	position: relative;
+
+}
+.page1 .bg{
+	position: absolute;
+	top: -110px;
+	width: 640px;
+	/*height: 4626px;*/
+	z-index: -100;
+}
+img,.img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.logo{
+	margin-left: 56px;
+}
+.img_01{
+	top: 151px;
+}
+.img_02{
+	top: 298px;
+	left: 130px;
+}
+.img_03{
+	top: 670px;
+}
+.img_04{
+	top: 1192px;
+}
+.img_05{
+	top: 1690px;
+}
+.img_06{
+	top: 2288px;
+}
+.img_07{
+	top: 2738px;
+}
+.img_08{
+	top: 3192px;
+}
+.img_09{
+	bottom: 0;
+	z-index: 100;
+	top: 7640px;
+	position: absolute;
+	pointer-events: none;
+}
+.img_10{
+
+	position: absolute;
+	z-index: 100;
+	top: 4392px;
+	
+}
+.img_11{
+	position: absolute;
+	z-index: 100;
+	top: 4536px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	
+}
+.gif{
+	position: absolute;
+	width: 596px;
+	height: 335.25px;
+}
+.gif03{
+	top: 124px;
+}
+.gif04{
+	top: 80px;
+}
+.gif05{
+	top: 218px;
+}
+.gif06{
+	top: 74px;
+}
+.gif07{
+	top: 77px;
+}
+.gif08{
+	top: 75px;
+}
+
+.all{
+	width: 640px;
+	position: relative;
+	
+}
+
+.pos{
+	position: absolute;
+	z-index: 10;
+}
+
+.aPos{
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.footer{
+	position: absolute;
+	top: 4483px;
+	width: 640px;
+	height: 326px;
+}
+.footer .btn{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 210px;
+}
