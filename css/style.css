@@ -9,7 +9,7 @@
 
 .iphone {
 	width: 640px;
-	height: 326px;
+	height: 312px;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -21,7 +21,7 @@
 .browser {
 	position: relative;
 	width: 640px;
-	height: 326px;
+	height: 312px;
 	overflow: hidden;
 }
 
@@ -128,6 +128,7 @@
 .express-area-box article {
 	height: 250px;
 	overflow-y: scroll;
+
 }
 
 .area-list li {
