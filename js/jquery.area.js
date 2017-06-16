@@ -587,6 +587,8 @@ var district = 	[
 			function clockArea() {
 				$("#areaMask").fadeOut();
 				$("#areaLayer").animate({"bottom": "-100%"});
+				
+				$('.footer .btn img').attr('src','img/index/btn2.png')
 				intProvince();
 			}
 			
