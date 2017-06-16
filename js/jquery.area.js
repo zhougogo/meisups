@@ -544,6 +544,9 @@ var district = 	[
 				areaList.html(areaCont);
 				$("#areaBox").scrollTop(0);
 				expressArea = province[p] + "  ";
+				$('.area-list li').css({
+					'font-size': '20px'
+				});
 				$("#backUp").attr("onClick", "intProvince();").show();
 			}
 			
@@ -567,6 +570,9 @@ var district = 	[
 						expressArea += sCity + "  ";
 					}
 				}
+				$('.area-list li').css({
+					'font-size': '20px'
+				});
 				$("#backUp").attr("onClick", "selectP(" + p + ");");
 			}
 			
