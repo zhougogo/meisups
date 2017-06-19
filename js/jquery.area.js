@@ -49,10 +49,12 @@ function selectP(p) {
 	}
 	areaList.html(areaCont);
 	$("#areaBox").scrollTop(0);
-	expressArea = province[p] + "  ";
+	expressArea = province[p];
 	$('.area-list li').css({
 		'font-size': '20px'
 	});
+//	$(this).css('background-color','red');
+//	$('.area-list li').eq(p).css('background-color','#e9dc9f').siblings().css('background-color','white');
 	$("#backUp").attr("onClick", "intProvince();").show();
 }
 
@@ -73,12 +75,15 @@ function selectC(p, c) {
 		} else if(sCity == "市辖区" || sCity == "市辖县" || sCity == "香港岛" || sCity == "九龙半岛" || sCity == "新界" || sCity == "澳门半岛" || sCity == "离岛" || sCity == "无堂区划分区域") {
 			expressArea += "";
 		} else {
-			expressArea += sCity + "  ";
+			expressArea += sCity;
+
+
 		}
 	}
 	$('.area-list li').css({
 		'font-size': '20px'
 	});
+//	$('.area-list li').eq(c).css('background-color','#e9dc9f').siblings().css('background-color','white');
 	$("#backUp").attr("onClick", "selectP(" + p + ");");
 }
 

@@ -33,8 +33,8 @@
 /*选择地区*/
 
 .express-area {
-	/*border-top: 1px solid #ddd;*/
-	/*border-bottom: 1px solid #ddd;*/
+
+
 	/*margin-top: .25rem;*/
 
 	/*background-color: #fff;*/
@@ -48,7 +48,7 @@
 
 .express-area dl {
 	position: relative;
-	line-height: 1.2rem;
+
 	color: #4d525d;
 	width: 357px;
 	
@@ -59,20 +59,22 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	font-size: .7rem;
-	line-height: 1.2rem;
+
 	
 }
 
 .express-area dl dd {
 
 	text-align: justify;
-	font-size: 24px;
-	line-height: 60px;
+	font-size: 26.46px;
+	line-height: 62px;
 	width: 377px;
-	height: 60px;
-	padding-left: 25px;
+	height: 61px;
+
 	color: #9f7f34;
+	text-align: center;
+	letter-spacing: 2px;
+	opacity: 0.8;
 }
 
 
