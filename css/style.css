@@ -16,6 +16,7 @@
 	margin: auto;
 	z-index: 100;
 	top: 15px;
+	/*pointer-events: none;*/
 }
 
 .browser {
@@ -23,6 +24,7 @@
 	width: 640px;
 	height: 312px;
 	overflow: hidden;
+	/*pointer-events: none;*/
 }
 
 
@@ -66,10 +68,10 @@
 
 	text-align: justify;
 	font-size: 24px;
-	line-height: 57px;
+	line-height: 60px;
 	width: 377px;
-	height: 57px;
-	padding-left: 15px;
+	height: 60px;
+	padding-left: 25px;
 	color: #9f7f34;
 }
 
@@ -98,7 +100,7 @@
 .express-area-box header h3 {
 
 	text-align: center;
-	font-size: 30px;
+	font-size: 24px;
 	line-height: 40px;
 }
 

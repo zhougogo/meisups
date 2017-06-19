@@ -128,5 +128,21 @@ img,.img{
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 210px;
+	bottom: 200px;
+	/*z-index: 300;*/
 }
+form{
+	position: absolute;
+	z-index: 200;
+	display: none;
+}
+ .footer .btn label{
+ 	width: 375px;
+ 	height: 63px;
+ 	display: block;
+ 	position: absolute;
+ 	left: 0;
+ 	right: 0;
+ 	margin: auto;
+ 	
+ }
